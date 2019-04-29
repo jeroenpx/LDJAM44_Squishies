@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 98bc57cbc6b640244a0897a49b510139
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blob_BG_hairmap_0
+    21300002: blob_BG_hairmap_1
+    21300004: blob_BG_hairmap_2
+    21300006: blob_BG_hairmap_3
+    21300008: blob_BG_hairmap_4
+    21300010: blob_BG_hairmap_5
+    21300012: blob_BG_hairmap_6
+    21300014: blob_BG_hairmap_7
+    21300016: blob_BG_hairmap_8
+    21300018: blob_BG_hairmap_9
+    21300020: blob_BG_hairmap_10
+    21300022: blob_BG_hairmap_11
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blob_BG_hairmap_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 314
+        width: 101
+        height: 78
+      alignment: 9
+      pivot: {x: 0.76739764, y: 0.5786919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f716862bdf47c41b5ff48d9c700e68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 325
+        width: 158
+        height: 74
+      alignment: 9
+      pivot: {x: 0.34460768, y: 0.5248834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e547b9ab8076e784494b582852427119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 267
+        width: 122
+        height: 70
+      alignment: 9
+      pivot: {x: 0.2836609, y: 0.5350739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e57e2a74c4f164c9eea5a49f320002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 334
+        width: 112
+        height: 33
+      alignment: 9
+      pivot: {x: 0.41231427, y: 0.64879906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb74fe30fe0a9b49943109b12a62aa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 201
+        width: 87
+        height: 84
+      alignment: 9
+      pivot: {x: 0.8386478, y: 0.71190643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffae241f5e89c5b4292770798e10b226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 155
+        width: 50
+        height: 94
+      alignment: 9
+      pivot: {x: 0.67186403, y: 0.80036974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ad47082cac71e41a11b07d8ca991dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 176
+        width: 107
+        height: 54
+      alignment: 9
+      pivot: {x: 0.20170465, y: 0.45453304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e19dd0b30f8174283a851fcb394923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 181
+        width: 128
+        height: 103
+      alignment: 9
+      pivot: {x: 0.40888906, y: 0.65493935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b23893522751f4796ae6461a382e79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 67
+        width: 96
+        height: 70
+      alignment: 9
+      pivot: {x: 0.7045997, y: 0.7455196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e6a820736e1ef49acdcdc733acd758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 20
+        width: 95
+        height: 86
+      alignment: 9
+      pivot: {x: 0.26740208, y: 0.79262507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a3b8c184505b74a8257ba431ccc42c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_10
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 41
+        width: 153
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4999996, y: 0.72319967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a290d22072f1984b9fa6b4079565b8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blob_BG_hairmap_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 12
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a4355594a244144944d3198355c5cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2f5c111ab3511ca489d9606be0e0eb42
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
