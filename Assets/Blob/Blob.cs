@@ -241,25 +241,27 @@ public class Blob : MonoBehaviour
                 }
                 else
                 {
+                    float wallOrientation = Mathf.Sign(path[i - 1].x/* endpoint of flat area */ - current.x/* top of wall */);
+
                     // Check distance to wall...
-                    if (Mathf.Abs(flatx - startpoint.x) > MAXWALLDISTANCEJUMP)
+                    if (wallOrientation*(flatx - startpoint.x) > MAXWALLDISTANCEJUMP)
                     {
                         // Jump a bit forward...
-                        Jump(JUMPMIN, JUMPMIN * Mathf.Sign(flatx - startpoint.x));
+                        Jump(JUMPMIN, JUMPMIN * wallOrientation);
                         Debug.Log("A bit forwards towards wall!");
                     }
-                    else if (Mathf.Abs(flatx - startpoint.x) < MINDISTANCEFROMWALLUP)
+                    else if (wallOrientation*(flatx - startpoint.x) < MINDISTANCEFROMWALLUP)
                     {
                         if (current.y - startpoint.y < SMALLWALL)
                         {
                             // A Small wall... Jump on it...
-                            Jump(4f, 1.1f * Mathf.Sign(current.x - startpoint.x));
+                            Jump(4f, 1.1f * wallOrientation);
                             Debug.Log("Small wall, jump!");
                         }
                         else
                         {
                             // Big wall... Jump a bit backwards...
-                            Jump(JUMPMIN, -JUMPMIN * Mathf.Sign(flatx - startpoint.x));
+                            Jump(JUMPMIN, -JUMPMIN * wallOrientation);
                             Debug.Log("Big wall, too close, go back!");
                         }
                     }

@@ -344,7 +344,23 @@ public class NavCube : MonoBehaviour
                         {
                             traceDir = (side - current).normalized;
                         }
-                        const float traceLength = 20f;// To long is not a problem if we know we can go underneath...
+                        // To long is not a problem if we know we can go underneath...
+                        // Except if the blobs then also think they can jump there
+                        // And while it looks funny to see them jump up an huge wall, for floating platforms this makes no sense
+                        float maxY = float.NegativeInfinity;
+                        float minY = float.PositiveInfinity;
+                        foreach (Vector3 corner in corners) {
+                            float cornerY = transform.TransformPoint(corner).y;
+                            if (cornerY < minY) {
+                                minY = cornerY;
+                            }
+                            if (cornerY > maxY)
+                            {
+                                maxY = cornerY;
+                            }
+                        }
+                        float boundsHeight = maxY-minY;
+                        float traceLength = 4f/* how high a blob can jump (max) */ + boundsHeight;
 
                         Vector3 downPoint = paddingPoint + traceDir * traceLength;
                         Trace(paddingPoint, downPoint, j, origin);
