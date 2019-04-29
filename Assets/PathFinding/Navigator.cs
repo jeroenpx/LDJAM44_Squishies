@@ -216,8 +216,10 @@ public class Navigator : MonoBehaviour
     Point FindNextAccessibleNeighbour(Point start, int dir, bool goBelowIfPossible) {
         Point result = start;
         bool valid = true;
-        while (true)
+        int remainingiter = 10;
+        while (remainingiter > 0)
         {
+            remainingiter--;
             Point previousLeft = result;
             if (dir == -1)
             {
@@ -233,7 +235,7 @@ public class Navigator : MonoBehaviour
                 {
                     result = result.left;
                 }
-                if(Vector3.Dot(result.owner.transform.TransformVector(result.rightNormal), Vector3.up) < -0.5f)
+                if (Vector3.Dot(result.owner.transform.TransformVector(result.rightNormal), Vector3.up) < -0.5f)
                 {
                     // We are upside down...
                     valid = false;
@@ -292,6 +294,10 @@ public class Navigator : MonoBehaviour
             }*/
             // ^Disabling above code so, it does find paths...
         }
+        if (remainingiter == 0) {
+            valid = false;
+        }
+
         if (valid) {
             return result;
         }

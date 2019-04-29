@@ -368,12 +368,14 @@ public class NavCube : MonoBehaviour
                 // 3. call GetHit
                 Point hitPoint = other.GetHit(hit.point);
 
-
-                // Check distance between point and boundary... (to remove false positives (when hit stats inside the collider)
-                Vector3 boundaryPoint = hitPoint.owner.transform.TransformPoint(hitPoint.localPosition);
-                if (Vector3.Distance(hit.point, boundaryPoint) > 0.3f) {
-                    // Don't continue...
-                    return true;
+                // If the thing we hit is not a blob...
+                if(other.GetComponent<Eyes>()==null) {
+                    // Check distance between point and boundary... (to remove false positives (when hit stats inside the collider)
+                    Vector3 boundaryPoint = hitPoint.owner.transform.TransformPoint(hitPoint.localPosition);
+                    if (Vector3.Distance(hit.point, boundaryPoint) > 0.3f) {
+                        // Don't continue...
+                        return true;
+                    }
                 }
 
 

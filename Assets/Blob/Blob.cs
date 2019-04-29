@@ -154,8 +154,8 @@ public class Blob : MonoBehaviour
 
                 nextJumpTime = Time.time + Random.Range(MINTIMEBETWEENJUMPS, MAXTIMEBETWEENJUMPS);
                 const float MAXFLATJUMP = 6f;
-                const float MAXWALLDISTANCEJUMP = 3f;
-                const float MINDISTANCEFROMWALLUP = 1.5f;
+                const float MAXWALLDISTANCEJUMP = 2.5f;
+                const float MINDISTANCEFROMWALLUP = 1.2f;
                 const float SMALLWALL = 1.5f;
                 const float TYPICALJUMPDISTANCE = 1f;
 
@@ -266,7 +266,8 @@ public class Blob : MonoBehaviour
                     else
                     {
                         // We are close enough... Try to get on it!
-                        Jump(JUMPHIGH, 1.2f * Mathf.Sign(current.x - startpoint.x));
+                        float distance = Mathf.Abs(flatx - startpoint.x);
+                        Jump(JUMPHIGH, (.9f + distance*.4f) * Mathf.Sign(current.x - startpoint.x));
                         Debug.Log("Jump!");
                     }
                 }
